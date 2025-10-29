@@ -217,6 +217,7 @@
         // i. onBlur - when field loses focus
         function handleBlur(event) {
             console.log(event.target.id + ' lost focus');
+            event.target.style.border = '2px solid blue';
         }
 
         // ii. onFocus - when email gets focus
@@ -257,4 +258,5 @@
         }
     </script>
 </body>
+
 </html>
